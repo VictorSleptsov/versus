@@ -95,8 +95,13 @@ table {
   text-transform: uppercase;
   font: 17px/1.5 'Lato', sans-serif;
   letter-spacing: 1px;
+  transition-duration: 0.5s;
+}
+.nav_link:hover {
+  color: #00D6B4;
 }
 
+/*   main-page  */
 .main {
   background: url(../media/img/room.png) center no-repeat;
   background-size: cover;
@@ -113,8 +118,53 @@ table {
   padding-bottom: 30px;
 }
 .main-info .main_link {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid #00D6B4;
   font: 13px/1.45 'Lato', sans-serif;
   text-transform: uppercase;
   color: #00D6B4;
   text-decoration: none;
+  transition-duration: 0.5s;
+}
+.main-info .main_link:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+/*  work example   */
+.last-work {
+  background-color: #222222;
+  padding: 50px 0 100px;
+}
+.last-work_title {
+  font: 25px/1.2 'Lato', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.work-example {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+.work-example_item {
+  margin: 10px;
+  width: calc(33% - 20px);
+}
+
+/*  footer   */
+.footer {
+  background-color: #222222;
+  padding: 35px 0;
+  text-align: center;
+}
+.footer .logo {
+  color: #C2C2C2;
+}
+.footer p {
+  font: 12px/1.5 'Open Sans', sans-serif;
+  color: #999999;
+  margin-top: 10px;
 }
