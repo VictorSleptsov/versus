@@ -60,7 +60,6 @@ table {
   margin: 0 auto;
 }
 
-/*  header  */
 .header {
   position: absolute;
   width: 100%;
@@ -101,7 +100,6 @@ table {
   color: #00D6B4;
 }
 
-/*   main-page  */
 .main {
   background: url(../media/img/room.png) center no-repeat;
   background-size: cover;
@@ -131,7 +129,6 @@ table {
   background-color: rgba(0, 0, 0, 0.24);
 }
 
-/*  work example   */
 .last-work {
   background-color: #222222;
   padding: 50px 0 100px;
@@ -154,7 +151,6 @@ table {
   width: calc(33% - 20px);
 }
 
-/*  footer   */
 .footer {
   background-color: #222222;
   padding: 35px 0;

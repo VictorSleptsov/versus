@@ -65,7 +65,7 @@ $white: #FFFFFF;
 $aqua: #00D6B4;
 $dark-gray: #222222;
 
-/*  header  */
+
 
 .header {
    position: absolute;
@@ -73,11 +73,13 @@ $dark-gray: #222222;
    top: 30px;
    left: 0;
 }
+
 .navbar {
    display: flex;
    justify-content: space-between;
    align-items: center;   
 }
+
 .logo {
    text-decoration: none;
    color: $white;
@@ -104,8 +106,6 @@ $dark-gray: #222222;
       }
    }
 }
-
-/*   main-page  */
 
 .main {
    background: url(../media/img/room.png) center no-repeat;
@@ -136,8 +136,6 @@ $dark-gray: #222222;
    }
 }
 
-/*  work example   */
-
 .last-work {
    background-color: $dark-gray;
    padding: 50px 0 100px;
@@ -159,8 +157,6 @@ $dark-gray: #222222;
       width: calc(33% - 20px);
    }
 }
-
-/*  footer   */
 
 .footer {
    background-color: $dark-gray;
